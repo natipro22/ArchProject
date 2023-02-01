@@ -12,6 +12,7 @@ namespace ArchProject.Service.Common
     {
         private IUnitOfWork _unitOfWork;
         private IRepository<T> _repository;
+
         public EntityService(IUnitOfWork unitOfWork, IRepository<T> repository)
         {
             _unitOfWork = unitOfWork;
